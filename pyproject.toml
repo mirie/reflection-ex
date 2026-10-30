@@ -1,0 +1,23 @@
+[project]
+name = "reflection-ex"
+version = "0.1.0"
+description = "Examples of the reflection pattern using different agent implementations"
+readme = "README.md"
+authors = [
+    { name = "Mai Irie", email = "mai.irie@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=2.13.0",
+    "langchain>=1.4.7",
+    "langchain-openai>=1.7.3",
+]
+
+[project.scripts]
+reflection-ex = "reflection_ex:main"
+reflection-langchain = "reflection_ex.examples.langchain_reflection.main:main"
+reflection-iterative-loop = "reflection_ex.examples.iterative_loop.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
