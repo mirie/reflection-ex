@@ -1,4 +1,8 @@
-"""LangChain example of the reflection pattern."""
+"""LangChain example of the reflection pattern:
+   This is basically a sequential prompt chain utilizing the concepts
+   of reflection.
+   Source = Agent Design Patterns by Antonio Gulli
+"""
 
 import asyncio
 import os
