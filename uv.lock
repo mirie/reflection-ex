@@ -1262,6 +1262,7 @@ dependencies = [
     { name = "google-adk" },
     { name = "langchain" },
     { name = "langchain-openai" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -1269,6 +1270,7 @@ requires-dist = [
     { name = "google-adk", specifier = ">=2.13.0" },
     { name = "langchain", specifier = ">=1.4.7" },
     { name = "langchain-openai", specifier = ">=1.7.3" },
+    { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
 
 [[package]]
